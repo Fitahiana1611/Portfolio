@@ -1,12 +1,49 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/main.js" defer></script>
 </head>
 <body>
-    <h1>Salut , C'est Moi</h1>
-    <p>Fitahiana nonahary</p>
+     <header class="header"> 
+        <div class="header-logo">
+            <img src="/image/logofi.svg" class="logo_item logo-svg" width="30" height="30" alt="LogoFi">
+            <p class="logo_item header-name">FITAHIANA</p>
+        </div>
+        <nav class="header-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+    <section id="myhome">
+        <div class="myhome-container">
+            <div class="myhome-left">
+                <img src="/image/ava.jpg" class="myhome_ava" width="400" height="400" alt="avatar">
+            </div>
+            <div class="myhome-right">
+                <section class="notbtn">
+                    <h1>Fitahiana</h1>
+                    <p>
+                        Passionate about programming and problem-solving,<br>
+                        I am seeking my first professional experience <br>
+                        to develop my skills and create effective solutions
+                    </p>
+                </section>
+                <section class="btn">
+                    <a>Explore my CV</a>
+                    <a href="#">Contact me</a>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section id="about"></section>
+    <section id="skills"></section>
+    <section id="portfolio"></section>
+    <section id="contact"></section>
 </body>
 </html>

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #001b48;
+}
+.header{
+    height: 50px;
+    background-color: #051129;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .header-logo{
+    height: 40px;
+    width: 250px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+}
+.header .logo-svg{
+    background-color: white;
+    border-radius: 1em;
+}
+.header .header-nav{
+    height: 40px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    transform: translateX(-5em);
+}
+.header-nav .nav-link{
+    height: 40px;
+    width: 100px;
+    font-size: 1.1em;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-content: center;
+    border-radius: 0.4em;
+}
+.header-nav .nav-link:hover{
+    background-color: #d6e8ee52;
+}
+.myhome-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.myhome-container .myhome-left{
+    width: 500px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myhome-container .myhome_ava{
+    border-radius: 20em;
+}
+.myhome-container .myhome-right{
+    width: 500px;
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.myhome-right .notbtn{
+    display: flex;
+    flex-direction: column;
+}
